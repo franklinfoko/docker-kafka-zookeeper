@@ -1,5 +1,4 @@
-# docker-kafka-zookeeper
-Docker Kafka Zookeeper ![Build Status](https://travis-ci.org/hey-johnnypark/docker-kafka-zookeeper.svg?branch=master)
+Docker Kafka Zookeeper 
 ======================
 Docker image for Kafka message broker including Zookeeper
 
