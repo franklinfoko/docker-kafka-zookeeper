@@ -1,4 +1,4 @@
-# Kafka and Zookeeper
+# Kafka and Zookeeper 
 FROM alpine:3.9.2
 
 RUN apk add --update openjdk8-jre supervisor bash gcompat
