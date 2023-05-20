@@ -86,7 +86,7 @@ pipeline {
                     if (env.BRANCH_NAME == 'develop') {
                         echo env.BRANCH_NAME
                         sh 'docker build -t kafka-zookeeper .'
-                        sh 'docker run -p 2181:2181 -p 9092:9092 -e ADVERTISED_HOST=localhost kafka-zookeeper'
+                        sh 'docker run --name kafka-zookeeper -p 2181:2181 -p 9092:9092 -e ADVERTISED_HOST=localhost kafka-zookeeper'
 
                     }
                     slackSend(message: "${env.JOB_NAME} #${env.BUILD_NUMBER} (<${env.BUILD_URL}|Open>)\nDeploy on AWS success", channel: "zunihealth")
