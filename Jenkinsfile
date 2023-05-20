@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         AWS_ACCOUNT_ID="989481297723"
-        AWS_DEFAULT_REGION="us-east-1" 
+        AWS_DEFAULT_REGION="us-east-1"  
         IMAGE_REPO_NAME="kafka-zookeeper"
         IMAGE_TAG="latest"
         BRANCH_NAME = "${GIT_BRANCH.split("/")[1]}"
