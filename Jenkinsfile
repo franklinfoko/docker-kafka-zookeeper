@@ -1,7 +1,7 @@
 // Pipeline to build image and push to ECR on AWS.
 // Write by DevOps and Cloud engineer Franklin Foko fokofranklin47@gmail.com
 // All rigths reserved by FELICITY COMPANY LTD 2023
-
+// test
 pipeline {
     agent any
     options {
